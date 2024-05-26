@@ -15,3 +15,16 @@
 -Test docker
 
 ```docker ps```
+
+### Create a Runner inside EC2
+-Go to Settings -> Code and automations -> Actions -> Runners
+
+-Create a new self-hosted runner
+
+-Install svc.sh
+
+```sudo ./svc.sh install```
+
+-Start the service
+
+```sudo ./svc.sh start```
