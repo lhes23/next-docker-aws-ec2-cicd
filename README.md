@@ -19,7 +19,7 @@
 ### Create a Runner inside EC2
 -Go to Settings -> Code and automations -> Actions -> Runners
 
--Create a new self-hosted runner
+-Create a new self-hosted runner (name of runner: ec2)
 
 -Install svc.sh
 
@@ -28,3 +28,5 @@
 -Start the service
 
 ```sudo ./svc.sh start```
+
+## Create a .github/workflows/cicd.yml
